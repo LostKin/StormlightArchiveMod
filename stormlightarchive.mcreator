@@ -1,0 +1,144 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "WindRunOnKeyPressed",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WindRun",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "WindBound",
+      "type": "potion",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WindBoundMovement",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ViewToVector",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "pitch",
+            "type": "int"
+          },
+          {
+            "name": "yaw",
+            "type": "int"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ViewToX",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "pitch",
+            "type": "int"
+          },
+          {
+            "name": "yaw",
+            "type": "int"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ViewToY",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ViewToZ",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "lingering_potion.effect.windbound": "Lingering Wind Bound",
+      "splash_potion.effect.windbound": "Splash Wind Bound",
+      "key.mcreator.windrun": "Wind Run",
+      "tipped_arrow.effect.windbound": "Arrow of Wind Bound",
+      "effect.windbound": "Wind Bound",
+      "potion.effect.windbound": "Wind Bound"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "stormlightarchive",
+    "modName": "stormlight_archive",
+    "version": "1.0.0",
+    "author": "Alex, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.stormlightarchive",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}
